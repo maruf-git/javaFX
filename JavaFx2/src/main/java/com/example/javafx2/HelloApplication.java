@@ -18,7 +18,7 @@ public class HelloApplication extends Application{
     public void start(Stage stage) throws Exception {
         Group root = new Group();
 
-        Scene scene = new Scene(root, Color.BLUE);
+        Scene scene = new Scene(root, Color.BLACK);
         stage.setTitle("Barta - Desktop Application");
 //        Image icon = new Image("/src/icon.png");
         Image icon = new Image(Objects.requireNonNull(getClass().getResource("/icon.png")).toExternalForm());
@@ -31,6 +31,7 @@ public class HelloApplication extends Application{
 
         stage.setResizable(false);
         stage.setFullScreen(true);
+
         stage.setFullScreenExitHint("Press q to exit");
         stage.setFullScreenExitKeyCombination(KeyCombination.valueOf("q"));
 
