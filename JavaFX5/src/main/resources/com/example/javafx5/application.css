@@ -1,0 +1,18 @@
+.root{
+    -fx-background-color: #015551;
+}
+
+.label{
+    -fx-font-family:"Lucida Console";
+    -fx-text-fill: #57B4BA;
+    -fx-alignment: center;
+}
+
+#title_label{
+    -fx-font-size: 40;
+    -fx-color: #883452;
+}
+
+#des_label{
+    -fx-font-size: 24;
+}
